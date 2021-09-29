@@ -29,4 +29,14 @@ function multiplesOfFourOrSeven(){
    
 }
 
-multiplesOfFourOrSeven()
+//multiplesOfFourOrSeven()
+
+//4
+function square(num){
+    if ( Math.sqrt(num) % 1 === 0 ){
+        return Math.sqrt(num);
+    } else {
+        return num*num;     
+    }
+}
+console.log(square(11));
